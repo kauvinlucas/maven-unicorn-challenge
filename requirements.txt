@@ -1,0 +1,9 @@
+cufflinks==0.17.3
+dash==2.3.1
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+gunicorn==20.1.0
+pandas==1.3.5
+plotly==5.7.0
+statsmodels==0.13.2
+matplotlib==3.5.1
