@@ -1,0 +1,218 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background: #10091a;
+}
+
+#_dash-app-content {
+	background: linear-gradient(217deg, #d87700b5, #760014ab, #47002bbb,#18005fc8, #001c47), url("background.png") ;
+}
+
+#main {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-wrap: wrap;
+	align-items: flex-start;
+  	justify-content: center;
+}
+
+#graphs {
+    display: flex;
+    flex-wrap: wrap;
+	align-items: flex-start;
+  	justify-content: center;
+    width:100%;
+    height:100%;
+}
+
+#dash-title {
+    width:30%;
+    margin-bottom: 20px;
+    background: url('polygon_horse.png') rgba(7,0,10,0.7) no-repeat;
+    border-radius: 10px; 
+    margin: 10px;
+    height: 250px;
+    width: 630px;
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 25px;
+    font-size: 36px;
+    line-height: 38px;
+    text-align: left;
+    border-radius: 10px; 
+    background:#26000083;
+    backdrop-filter: blur(8px);
+}
+
+
+h2 {
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 23px;
+    font-size: 16px;
+    height: 120px;
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #26000083;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+#total_fundings_by_year {
+    border-radius: 10px; 
+    background: rgba(7,0,10,0.7);
+    margin: 10px;
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    backdrop-filter: blur(8px);
+}
+
+#average-number-of-investors {
+    border-radius: 10px; 
+    background: rgba(7,0,10,0.7);
+    margin: 10px;
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    backdrop-filter: blur(8px);
+}
+
+#top-5-unicorns-by-valuation {
+    border-radius: 10px; 
+    background: rgba(7,0,10,0.7);
+    margin: 10px;
+    max-width: 420px;
+    height: 310px;
+    backdrop-filter: blur(8px);
+}
+
+#total-valuation-by-industry-continent {
+    border-radius: 10px; 
+    background: rgba(7,0,10,0.7);
+    margin: 10px;
+    width: 100%;
+    max-width: 610px;
+    height: 310px;
+    backdrop-filter: blur(8px);
+}
+
+#top-5-investors-by-roi {
+    border-radius: 10px; 
+    background: url('unicorn.png') rgba(7,0,10,0.7) no-repeat 100% 100%;
+    margin: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 310px;
+    backdrop-filter: blur(8px);
+}
+
+#average-number-of-investors-graph, #total-fundings-by-year-graph {
+    height: 190px;
+    width: 100%;
+}
+
+#top-5-unicorns-by-valuation-graph, #total-valuation-by-industry-continent-graph, #top-5-investors-by-roi-graph {
+    height: 250px;
+    width: 100%;
+}
+
+#average-funding-roi-by-country {
+    border-radius: 10px; 
+    background: url('unicorn-inv.png') rgba(7,0,10,0.7) no-repeat 0% 100%;
+    margin: 10px;
+    width: 100%;
+    max-width: 700px;
+    height: 380px;
+    backdrop-filter: blur(8px);
+}
+
+#total_funding_by_industry {
+    border-radius: 10px; 
+    background: rgba(7,0,10,0.7);
+    margin: 10px;
+    width: 100%;
+    max-width: 850px;
+    height: 380px;
+    backdrop-filter: blur(8px);
+}
+
+#average-funding-roi-by-country-graph, #total-funding-by-industry-graph {
+    max-height: 330px;
+    height: 100%;
+}
+
+#total-valuation-by-industry-continent-legend {
+    color: #FFFFFF;
+    font-size: 13px;
+    border-radius: 10px; 
+    background: rgba(7,0,10,0.7);
+    margin: 10px;
+    padding: 10px;
+    max-width: 1550px;
+    backdrop-filter: blur(8px);
+    margin-bottom: 10px;
+}
+
+
+/*/
+/* Footer */
+/**/
+
+#footer {
+	background: #10091a;
+	color: #fff;
+	padding: 25px 0;
+	position: relative;
+	z-index: 9;
+    width: 100%;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+  	justify-content: center;
+}
+
+#foot-text {
+	margin-left: 20px; 
+	margin-right: 20px;
+	margin-bottom: 10px;
+	font-size: 12px; 
+	color: #8e959c; 
+	display: block;
+	text-align: center;
+}
+
+/* Change elements' layout when screen width is too small */
+@media only screen and (max-width: 580px) {
+	#dash-title {
+    height: 100%;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 28px;
+}
+
+h2 {
+    height: 100%;
+    font-size: 14px;
+}
+
+#total_fundings_by_year, #average-number-of-investors, #top-5-unicorns-by-valuation, #total-valuation-by-industry-continent, #top-5-investors-by-roi, #average-funding-roi-by-country, #total_funding_by_industry{
+    height: 100%;
+}
+}
