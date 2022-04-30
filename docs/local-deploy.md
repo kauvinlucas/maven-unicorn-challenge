@@ -1,7 +1,7 @@
 ## Deploying the app locally
 
 ### Creating a virtual environment
-First of all, it's recommended that you create a Python virtual environment for this app. Just follow the instructions below:
+It is recommended that you create a Python virtual environment for this app. Just follow the instructions below:
 1. Clone and go to this repository
 ```
 git clone https://github.com/kauvinlucas/maven-unicorn-challenge.git
@@ -45,4 +45,4 @@ To deploy the app:
 python main.py
 ```
 
-Once deployed, to the http://localhost:8080 in your browser to see the dashboard.
+Once deployed, go to the http://localhost:8080 in your browser to see the dashboard.
