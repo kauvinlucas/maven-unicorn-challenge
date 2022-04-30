@@ -19,12 +19,12 @@ python -m venv env
 ```
 
 4. Activate the environment:
-* (Windows users) Run the following command:
+* (Windows users):
 ```
 env\Scripts\activate.bat
 ```
 
-* (Linux/Mac user) Run the following command:
+* (Linux/Mac users):
 ```
 source env/bin/activate
 ```
@@ -42,7 +42,7 @@ rm -r env
 ### Deploying the app
 To deploy the app:
 ```
-python app.py
+python main.py
 ```
 
 Once deployed, to the http://localhost:8080 to see the dashboard.
