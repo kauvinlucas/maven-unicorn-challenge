@@ -20,7 +20,7 @@ app.layout = html.Div(id="main", children=[
 
             html.Div(id="dash-title", children=[
                     html.H1(children='Global Unicorn Investments and Valuations - Q1 2022'),
-                    html.H2(children='Unicorn fundings is still a hot topic in the first quarter of 2022, although it is showing signs of slowdown from the 2021 fever. What do new unicorns in the first quarter (Q1) statistics in 2022 tell us and how do they compare to the previous years?')
+                    html.H2(children='Unicorn funding is still a hot topic in the first quarter of 2022, although it is showing signs of slowdown from the 2021 fever. What do new unicorns in the first quarter (Q1) statistics in 2022 tell us and how do they compare to the previous years?')
             ]),
 
             html.Div(id="total_fundings_by_year", children=[
@@ -77,7 +77,7 @@ app.layout = html.Div(id="main", children=[
 
             html.Div(id="top-5-investors-by-roi", children=[
                     
-                    html.H3(children='A women-led investment firm is leading the ROI race of investments in Q1 2022.', style={
+                    html.H3(children='A women-led investment firm is leading the ROI race in Q1 2022.', style={
                         'textAlign': 'center',
                         'color': "#FFFFFF"
                     }),
