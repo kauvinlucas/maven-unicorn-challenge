@@ -4,8 +4,8 @@ body {
     background: #10091a;
 }
 
-#_dash-app-content {
-	background: linear-gradient(217deg, #d87700b5, #760014ab, #47002bbb,#18005fc8, #001c47), url("back.png") ;
+#_dash-app-content, #main {
+	background: linear-gradient(217deg, #d87700b5, #760014ab, #47002bbb,#18005fc8, #001c47), url("background.png") ;
 }
 
 #main {
