@@ -34,7 +34,7 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-Once you are done with the app, run `deactivate` in the terminal to deactivate the environment. To delete the environment, just delete the `env` folder:
+Once you are done with the app, run `deactivate` in the terminal to deactivate the environment. To delete the environment after deactivation, just delete the `env` folder:
 ```
 rm -r env
 ```
@@ -45,4 +45,4 @@ To deploy the app:
 python main.py
 ```
 
-Once deployed, to the http://localhost:8080 to see the dashboard.
+Once deployed, to the http://localhost:8080 in your browser to see the dashboard.
