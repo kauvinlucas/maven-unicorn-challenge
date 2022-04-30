@@ -45,4 +45,4 @@ To deploy the app:
 python app.py
 ```
 
-Once deployed, to the http://localhost:8050 to see the dashboard.
+Once deployed, to the http://localhost:8080 to see the dashboard.

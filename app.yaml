@@ -1,8 +1,8 @@
-service: maven-unicorn-challenge
-runtime: python310
+service: default
+runtime: python37
 
 basic_scaling:
-    max_instances: 1
+    max_instances: 2
     idle_timeout: 10m
 
 resources:
@@ -10,4 +10,4 @@ resources:
     memory_gb: 1
     disk_size_gb: 1
 
-entrypoint: gunicorn -b 0.0.0.0:8050 main:server
+entrypoint: gunicorn -b 0.0.0.0:8080 main:server
