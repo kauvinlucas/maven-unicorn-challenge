@@ -1,3 +1,6 @@
+numpy==1.23.1
+flask==2.2.2
+Werkzeug==2.3.7
 cufflinks==0.17.3
 dash==2.3.1
 dash-core-components==2.0.0
